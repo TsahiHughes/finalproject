@@ -19,12 +19,13 @@ body {
 .container .box
 {
    position: relative;
-   width: 300px;
+    width: 248px;
    height: 300px;
    background: #ff0;
    margin: 10px;
    box-sizing: border-box;
    display: inline-block;
+   center
 }
 .container .box .imgBox
 {
@@ -60,7 +61,7 @@ transition: transform .5s;
    padding: 15px;
    color: #fff;
  }
- .container .box:hover .details 
+ .container .box:hover .details
  {
    transform: scaleY(1);
 }
