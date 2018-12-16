@@ -6,6 +6,10 @@ body {
   padding: 30px 20px;
   text-align: center;
   align-content: center;
+  background-image:"raining.jpg";
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 .container
 {
@@ -80,12 +84,12 @@ transition: transform .5s;
      color: #ff0;
    }
 h1 {
-  color: black;
+  color: blue;
   padding: 20px 0px 10px 0px;
 }
 
 a {
-color: black;
+color: blue;
 text-decoration: none;
 }
 img {
@@ -94,15 +98,15 @@ img {
 }
 /* visited link */
   a:visited {
-      color: black;
+      color: blue;
     }
 
 /* mouse over link */
   a:hover {
-      color: darkblue;
+      color: yellow;
     }
 
   /* selected link */
     a:active {
-      color: black;
+      color: blue;
     }
